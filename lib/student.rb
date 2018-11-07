@@ -101,6 +101,7 @@ class Student
       LIMIT 1
     SQL
     DB[:conn].execute(sql).map do |row|
+      self.
     # binding.pry
 
   end
