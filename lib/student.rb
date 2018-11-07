@@ -82,7 +82,7 @@ class Student
     SQL
 
     DB[:conn].execute(sql).map do |row|
-      self.
+      self.new_from_db
     # binding.pry
   end
 
